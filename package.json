@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "jest --watchAll --coverage",
-    "dev": "node api.js && vite",
-    "build": "node api.js && tsc && vite build",
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,css,scss}\"",
